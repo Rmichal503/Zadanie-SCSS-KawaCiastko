@@ -1,0 +1,40 @@
+body {
+    margin: 0 auto;
+    color: $color;
+    background-color: #73b7e1;
+}
+
+a {
+    color: #472063;
+}
+
+.half-column {
+    display: inline-block;
+    width: 40%;
+    padding: 50px 0px 10px 20px;
+
+    .right {
+        float: right;
+    }
+}
+
+.landing-copy {
+    margin-left: 70px;
+}
+
+nav {
+    margin-top: 6em;
+    background-color: rgba(256, 256, 256, 0.5);
+    height: 3.75em;
+    padding: 0px 40px;
+    bottom: 0;
+
+}
+
+.main-nav {
+    li {
+        display: inline-block;
+        padding: 5px 30px;
+        margin: 10px;
+    }
+}

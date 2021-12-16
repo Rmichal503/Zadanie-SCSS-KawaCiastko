@@ -1,0 +1,32 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.landing-copy {
+    h1 {
+        @include landing(3em, 1.2em);
+    }
+
+    p {
+        @include landing(1.3em, 1.2em);
+    }
+}
+
+nav {
+    text-align: center;
+}
+
+.main-nav {
+    li {
+        font-weight: 400;
+        font-size: 1.2em;
+    }
+}
